@@ -64,5 +64,6 @@ eip_2359_c_api = ["eip_2539"]
 
 [profile.release]
 lto = "thin"
+strip = true
 # codegen-units = 1
 # incremental = false
