@@ -4,4 +4,5 @@ linker = "aarch64-linux-gnu-gcc"
 [target.riscv32im-unknown-none-elf]
 linker = "riscv32-unknown-elf"
 
+[unstable]
 build-std = ["core", "compiler_builtins"]
