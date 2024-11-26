@@ -1,4 +1,5 @@
 [target.aarch64-unknown-linux-gnu]
 linker = "aarch64-linux-gnu-gcc"
 
-build-std = ["core", "compiler_builtins"]
+[target.riscv32im-unknown-none-elf]
+linker = "riscv32-unknown-elf"
